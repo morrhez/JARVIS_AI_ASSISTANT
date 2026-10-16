@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jarvis's personal memory (stays on your PC)
+jarvis_memory.json
+
+# Secrets
+.env
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Leftovers from the old gTTS code
+temp.mp3
