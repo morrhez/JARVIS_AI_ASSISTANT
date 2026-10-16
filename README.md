@@ -85,13 +85,13 @@ The listening runs in its own thread because pygame needs the main thread for th
 
 ### Two versions of Jarvis
 
-`main.py` is the full thing with the HUD. `main_without_interface.py` is the same code with the window taken out, so it runs only in the terminal. I kept it because it's lighter, and because it's handy if pygame ever gives you trouble. Everything still works, the timer just counts quietly in the background instead of showing on screen.
+`main.py` is the full thing with the Interface. `main_without_interface.py` is the same code with the window taken out, so it runs only in the terminal. I kept it because it's lighter, and because it's handy if pygame ever gives you trouble. Everything still works, the timer just counts quietly in the background instead of showing on screen.
 
 ---
 
 ## Setting it up
 
-You need Windows, Python 3, a microphone and an internet connection.
+You need Windows, Python 3.12.3 (more specificly), a microphone and an internet connection.
 
 ```bash
 pip install -r requirements.txt
@@ -169,7 +169,7 @@ If you spot something I could do better, feel free to open an issue. I'm still l
 
 ## Author
 
-Created by YOUR NAME ([@MOHAMMAD FARAZ IDREESI](https://github.com/morrhez)).
+   Created by Mohammad Faraz Idreesi ([@morrhez](https://github.com/morrhez)).
 
 If you use or build on this project, I'd love to hear about it!
 
